@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="Extension">
+
+    <button onclick="ToggleTwo()" id="Toggle">Mostrar Historico</button>
+
+</div>
+
+    <section id="Calculator">
+        <h1>Calculadora</h1>
+        <input type="text" id="Show" disabled>
+        <div id="CalcB">
+
+            <button onclick="limpar('C')">C</button>
+            <button onclick="operador('*')">*</button>
+            <button onclick="operador('-')">-</button>
+            <button onclick="operador('+')">+</button>
+        <button onclick="numero('1')">1</button>
+        <button onclick="numero('2')">2</button>
+        <button onclick="numero('3')">3</button>
+            <button onclick="operador('/')">/</button>
+        <button onclick="numero('4')">4</button>
+        <button onclick="numero('5')">5</button>
+        <button onclick="numero('6')">6</button>
+        <button onclick="calcular()">=</button>           
+        <button onclick="numero('7')">7</button>
+        <button onclick="numero('8')">8</button>
+        <button onclick="numero('9')">9</button>
+        <button onclick="numero('0')">0</button>
+            
+        </div>
+           
+    </section>
+
+
+
+<footer id="HidShow" class="hidden"> 
+<h1>Historico</h1>
+    <ul id="List">
+        
+    </ul>
+
+</footer>
+
+    <script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+#Calculator {
+    margin: 0 auto;
+    text-align: center;
+    border: 10px solid gray;
+    width: 220px;
+    background-color: rgb(197, 196, 196);
+}
+
+#Show {
+    margin: 10px;
+    border: 2px solid gray;
+}
+
+#CalcB {
+width: 170px;
+margin: 0 auto;
+}
+
+button {
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+    background-color: rgb(51, 50, 50);
+    color: aliceblue;
+    width: 30px;
+}
+
+body {
+    background-image: url(./4k-pc-8dxv1c1kpj1bsvde.jpg);
+    background: no-repeat, cover, center;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    border: 10px solid gray;
+    width: 220px;
+    background-color: rgb(197, 196, 196);
+    height: 300px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#Toggle {
+    width: 150px;
+}
+
+#HistoricName {
+    text-align: center;
+}
+
+#ListaItem {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
